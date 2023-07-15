@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d3557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+#form {
+  position: relative;
+}
+#form #email {
+  width: 300px;
+  padding: 7px 15px;
+  background-color: #373f47;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+}
+#form .inputbox {
+  position: relative;
+}
+#text {
+  display: block;
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#form.valid .inputbox:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/valid.png");
+  background-size: cover;
+  color: #1beb04;
+  z-index: 1000;
+}
+#form.invalid .inputbox:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/invalid.png");
+  background-size: cover;
+  color: red;
+  z-index: 1000;
+}
