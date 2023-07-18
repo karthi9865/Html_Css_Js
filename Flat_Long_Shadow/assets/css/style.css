@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #00fff3;
+}
+
+#text {
+  position: relative;
+  font-size: 100px;
+  font-weight: 600;
+  color: white;
+  outline: none;
+  text-align: center;
+  text-shadow: 100px 100px 0 #03ded0;
+}
+
+/*# sourceMappingURL=style.css.map */
